@@ -1,0 +1,12 @@
+.addTask{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#addBtn{
+    width: 70%;
+    height: 30px;
+    background-color: rgb(107, 71, 71);
+    color: white;
+}

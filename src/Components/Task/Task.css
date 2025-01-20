@@ -1,0 +1,7 @@
+.task{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(107, 71, 71);
+    color: white;
+}
