@@ -15,7 +15,6 @@ export function TaskManager(){
       const [showModal, setShowModal] = useState(false);
       const [newTask, setNewTask] = useState({ title: "", description: "", status: "Pending" });
     
-      // Add new task
       const handleAddTask = () => {
         setTasks([...tasks, { ...newTask, id: tasks.length + 1 }]);
         setNewTask({ title: "", description: "", status: "Pending" });

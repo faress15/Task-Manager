@@ -1,6 +1,6 @@
 import './FilterTasks.css'
 
-export function FilterTasks({filter,setFilter}) {
+export function FilterTasks({ filter, setFilter }) {
     return <div className="filter-container">
         <label htmlFor="filter">Filter by Status: </label>
         <select id="filter" value={filter} onChange={(e) => setFilter(e.target.value)}>
